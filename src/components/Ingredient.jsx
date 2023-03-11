@@ -10,7 +10,7 @@ import {
   TableRow,
   Typography,
 } from "@mui/material";
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { BrowserView, MobileView } from "react-device-detect";
 
@@ -23,13 +23,6 @@ const IngredientWrapper = styled(Card)`
   align-items: center;
   margin-top: 20px;
   padding: 10px;
-`;
-
-const ImageWrapper = styled.div`
-  img {
-    width: 50vh;
-    height: 50vh;
-  }
 `;
 
 const Ingredient = ({ ingredientId }) => {

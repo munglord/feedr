@@ -4,7 +4,6 @@ import {
   SEARCH_INGREDIENTS,
   SPOONACULAR_BASE,
 } from "../constants/urls";
-import { getMockIngredient, getMockIngredients } from "../mocks/ingredient";
 
 const API_KEY = process.env.SPOONACULAR_API_KEY;
 

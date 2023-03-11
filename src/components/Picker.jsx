@@ -16,7 +16,6 @@ const StyledBody = styled.div`
 `;
 
 const Picker = () => {
-  const [selectedFood, setSelectedFood] = useState(null);
   const [value, setValue] = useState(null);
   const [inputValue, setInputValue] = useState("");
   const [options, setOptions] = useState([]);
