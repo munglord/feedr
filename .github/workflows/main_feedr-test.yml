@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'feedr-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7B99A07DB1DF473F89AD548BD695D5AA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7025C83BA7AB492398FBE04FB1139AB9 }}
           package: .
